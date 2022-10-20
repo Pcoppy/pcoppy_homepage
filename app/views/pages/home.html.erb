@@ -1,8 +1,20 @@
-<div class = "header-container">
+<div id="header-image"></div>
+<div class="header-background">
+  <div class="header-box">
+    <h1>I am</h1>
+    <h1>Pierre Coppermann</h1>
+    <h2>Student/Teacher/Developper</h2>
+  </div>
+    <div id="scrollable">
+      <i class="fa-sharp fa-solid fa-chevron-down"></i>
+  </div>
+</div>
+
+<div class = "profile-container">
   <div class="img-banner" id = "first">
-    <div class = "header-title">
+    <div class = "profile-title">
       <h1>Place Holder
-        <div class="header-underline"></div>
+        <div class="profile-underline"></div>
       </h1>
     </div>
     <%= link_to download_pdf_consulting_path, class: "btn-download", target: :_blank do %>
@@ -11,9 +23,9 @@
     <% end %>
   </div>
   <div class="img-banner" id = "second" >
-    <div class = "header-title">
+    <div class = "profile-title">
       <h1>Place Holder
-        <div class="header-underline"></div>
+        <div class="profile-underline"></div>
       </h1>
     </div>
     <%= link_to download_pdf_web_dev_path, class: "btn-download", target: :_blank do %>
@@ -22,9 +34,9 @@
     <% end %>
   </div>
   <div class="img-banner" id = "third" href = "pierre_coppermann_cv_consulting.pdf" download>
-    <div class = "header-title">
+    <div class = "profile-title">
       <h1>Place Holder
-        <div class="header-underline"></div>
+        <div class="profile-underline"></div>
       </h1>
     </div>
   </div>

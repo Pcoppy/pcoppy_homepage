@@ -45,11 +45,20 @@
   .btn-download {
     opacity: 1;
   }
-  .header-title {
+  .profile-title {
     opacity: 1;
   }
 }
 
+#header-image {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  background-image: url('computer_background.jpg');
+}
 #first {
   background-image: url('first_pic.jpg');
 }
